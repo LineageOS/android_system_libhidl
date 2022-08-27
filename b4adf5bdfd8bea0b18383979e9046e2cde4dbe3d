@@ -16,6 +16,24 @@
       "message": "Which devices?",
       "revId": "b4adf5bdfd8bea0b18383979e9046e2cde4dbe3d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c5f211d5_f7d29fdb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31635
+      },
+      "writtenOn": "2022-08-27T03:22:03Z",
+      "side": 1,
+      "message": "Smartisan U3 Pro (osborn) SDM660",
+      "parentUuid": "d1a284d5_9febe688",
+      "revId": "b4adf5bdfd8bea0b18383979e9046e2cde4dbe3d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
