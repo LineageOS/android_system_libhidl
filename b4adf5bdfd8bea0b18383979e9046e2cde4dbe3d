@@ -34,6 +34,23 @@
       "parentUuid": "d1a284d5_9febe688",
       "revId": "b4adf5bdfd8bea0b18383979e9046e2cde4dbe3d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "98ef2a2e_e92af90d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26332
+      },
+      "writtenOn": "2022-08-27T05:49:54Z",
+      "side": 1,
+      "message": "https://github.com/ArrowOS-Devices/android_device_10or_G/commit/ee2c5200cdaacc7c47abc4174c930836a93a4e63 should be picked instead",
+      "revId": "b4adf5bdfd8bea0b18383979e9046e2cde4dbe3d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
