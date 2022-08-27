@@ -51,6 +51,24 @@
       "message": "https://github.com/ArrowOS-Devices/android_device_10or_G/commit/ee2c5200cdaacc7c47abc4174c930836a93a4e63 should be picked instead",
       "revId": "b4adf5bdfd8bea0b18383979e9046e2cde4dbe3d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c8abfe6e_9305f987",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31635
+      },
+      "writtenOn": "2022-08-27T06:16:14Z",
+      "side": 1,
+      "message": "This doesn\u0027t work.\n\nLogcat:\nF linker : CANNOT LINK EXECUTABLE \"/vendor/bin/cnd\": cannot locate symbol \"_ZN7android8hardware7details17gBnConstructorMapE\" referenced by \"/system/vendor/lib64/com.quicinc.cne.api@1.0.so\"...\n\npatchelf --replace-needed \"libhidlbase.so\" \"libhidlbase-v32.so\" com.quicinc.cne.api@1.0.so\n\nship prebuilts/vndk/v32/arm64/arch-arm64-armv8-a/shared/vndk-sp/libhidlbase.so to /system/vendor/lib64\n\nLogcat:\nF DEBUG   : Build fingerprint: \u0027Android/osborn/osborn:7.1.1/NGI77B/1571974731:user/dev-keys\u0027\nF DEBUG   : Revision: \u00270\u0027\nF DEBUG   : ABI: \u0027arm64\u0027\nF DEBUG   : Timestamp: 1970-01-09 18:23:18.337808801+0000\nF DEBUG   : Process uptime: 0s\nF DEBUG   : Cmdline: /vendor/bin/cnd\nF DEBUG   : pid: 887, tid: 887, name: cnd  \u003e\u003e\u003e /vendor/bin/cnd \u003c\u003c\u003c\nF DEBUG   : uid: 1000\nF DEBUG   : signal 6 (SIGABRT), code -1 (SI_QUEUE), fault addr --------\nF DEBUG   : Abort message: \u0027getOrCreateCachedBinder getBnConstructorMap returned null for com.quicinc.cne.api@1.0::IApiService\u0027",
+      "parentUuid": "98ef2a2e_e92af90d",
+      "revId": "b4adf5bdfd8bea0b18383979e9046e2cde4dbe3d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
