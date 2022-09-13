@@ -86,6 +86,23 @@
       "message": "This is also needed for walleye\n",
       "revId": "b4adf5bdfd8bea0b18383979e9046e2cde4dbe3d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "02a4f411_51cb28ed",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26777
+      },
+      "writtenOn": "2022-09-13T14:07:51Z",
+      "side": 1,
+      "message": "Needed for mata too, especially because we have some specific HALs. It will be a better idea to hex edit in the future but I think we should at least keep this for one version.",
+      "revId": "b4adf5bdfd8bea0b18383979e9046e2cde4dbe3d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
