@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "68c1e09f_06b0bb84",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2022-10-03T22:05:25Z",
+      "side": 1,
+      "message": "The way it looks any QCOM Android Pie BSP is affected. And the list of blobs that would need to be patched is overkill, e.g. https://hastebin.com/apocevomof.less.",
+      "revId": "73f9c79347a30222a450cfe65480bd057cd14172",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
