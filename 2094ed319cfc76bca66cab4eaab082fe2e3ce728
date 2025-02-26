@@ -52,6 +52,24 @@
       "parentUuid": "d8554bdc_ecd8b7ce",
       "revId": "2094ed319cfc76bca66cab4eaab082fe2e3ce728",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cfe674f6_533b5031",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34921
+      },
+      "writtenOn": "2025-02-26T14:19:23Z",
+      "side": 1,
+      "message": "it did not build with no issues.. as ive had to change it to fix the issue ?\n\nwould this be due to device specific  ?",
+      "parentUuid": "9f2981c4_8b58a687",
+      "revId": "2094ed319cfc76bca66cab4eaab082fe2e3ce728",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
