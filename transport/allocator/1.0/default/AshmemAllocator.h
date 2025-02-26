@@ -18,6 +18,7 @@
 #define ANDROID_HIDL_ASHMEM_ALLOCATOR_V1_0_ALLOCATOR_H
 
 #include <android/hidl/allocator/1.0/IAllocator.h>
+#include <AshmemAllocator.h>
 #include <hidl/MQDescriptor.h>
 #include <hidl/Status.h>
 
