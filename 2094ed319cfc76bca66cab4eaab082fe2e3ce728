@@ -34,6 +34,24 @@
       "parentUuid": "bf63a220_50f57cb3",
       "revId": "2094ed319cfc76bca66cab4eaab082fe2e3ce728",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9f2981c4_8b58a687",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-02-26T14:05:07Z",
+      "side": 1,
+      "message": "it builds automatically just fine too.",
+      "parentUuid": "d8554bdc_ecd8b7ce",
+      "revId": "2094ed319cfc76bca66cab4eaab082fe2e3ce728",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
