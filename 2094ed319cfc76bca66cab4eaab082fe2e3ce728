@@ -70,6 +70,24 @@
       "parentUuid": "9f2981c4_8b58a687",
       "revId": "2094ed319cfc76bca66cab4eaab082fe2e3ce728",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3f868b2b_514f91af",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-02-26T14:21:19Z",
+      "side": 1,
+      "message": "idk, maybe you broke it somehow, as I mentioned in the other CR, we have 100+ devices building this stuff and it works just fine for them.",
+      "parentUuid": "cfe674f6_533b5031",
+      "revId": "2094ed319cfc76bca66cab4eaab082fe2e3ce728",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
