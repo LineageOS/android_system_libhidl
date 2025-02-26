@@ -16,6 +16,24 @@
       "message": "ran `m android.hidl.allocator@1.0-service` and it builds fine without these changes.",
       "revId": "2094ed319cfc76bca66cab4eaab082fe2e3ce728",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d8554bdc_ecd8b7ce",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34921
+      },
+      "writtenOn": "2025-02-26T14:04:00Z",
+      "side": 1,
+      "message": "Lineage Includes this file already and is built already, we shouldn\u0027t have to separately build this file to make a build work. \n\nthis patch ensures lineage builds it automatically without having to separately build the file yourself",
+      "parentUuid": "bf63a220_50f57cb3",
+      "revId": "2094ed319cfc76bca66cab4eaab082fe2e3ce728",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
