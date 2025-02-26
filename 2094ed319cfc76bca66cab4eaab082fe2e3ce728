@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bf63a220_50f57cb3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-02-26T13:53:42Z",
+      "side": 1,
+      "message": "ran `m android.hidl.allocator@1.0-service` and it builds fine without these changes.",
+      "revId": "2094ed319cfc76bca66cab4eaab082fe2e3ce728",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
