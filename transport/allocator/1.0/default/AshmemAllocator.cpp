@@ -17,7 +17,7 @@
 #define LOG_TAG "AshmemAllocator"
 #include <android-base/logging.h>
 
-#include "AshmemAllocator.h"
+#include "default/AshmemAllocator.h"
 
 #include <cutils/ashmem.h>
 

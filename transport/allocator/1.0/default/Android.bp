@@ -29,6 +29,7 @@ cc_binary {
         "AshmemAllocator.cpp",
         "service.cpp"
     ],
+    include_dirs: ["system/libhidl/transport/allocator/1.0", "system/libhidl/transport/allocator/1.0/default"],
     init_rc: ["android.hidl.allocator@1.0-service.rc"],
     vintf_fragments: ["android.hidl.allocator@1.0-service.xml"],
     system_ext_specific: true,
