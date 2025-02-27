@@ -124,6 +124,24 @@
       "parentUuid": "4e3d5a11_9f62f318",
       "revId": "2094ed319cfc76bca66cab4eaab082fe2e3ce728",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7f92bd0b_5a2428d1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34921
+      },
+      "writtenOn": "2025-02-27T15:19:09Z",
+      "side": 1,
+      "message": "sounds good im going to re-replicate my errors by re-sysncing the source and rebuilding without any of the changes.  then comb through my manifests and the rest of my device tree fixing any issues there vs the source code, since certain modules from source builds fine for other devices.  Now with above mentioned of the kernel, i did have to use prebuilt kernel versus compiling from source, as there is no source available at the time for my devices kernel.  kernel version is 5.4.210 Device manufacturer is UMIDIGI Model A15C/MP34.\n\nim going to presume that this is a kernel issue due to not being built from source ?",
+      "parentUuid": "a25131c4_837746d3",
+      "revId": "2094ed319cfc76bca66cab4eaab082fe2e3ce728",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
