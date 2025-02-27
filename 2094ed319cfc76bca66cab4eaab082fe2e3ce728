@@ -106,6 +106,24 @@
       "parentUuid": "3f868b2b_514f91af",
       "revId": "2094ed319cfc76bca66cab4eaab082fe2e3ce728",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a25131c4_837746d3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-02-27T06:26:03Z",
+      "side": 1,
+      "message": "something you\u0027re building is doing screwy things.\n\nCheck your local manifests and see what\u0027s there.\n\nAlso, check your device trees for anything weird you\u0027re building that other devices aren\u0027t - chances are you ditch that, you\u0027ll have a better time.\n\nNot for this change, but bad kernel headers could also be part of it in places.",
+      "parentUuid": "4e3d5a11_9f62f318",
+      "revId": "2094ed319cfc76bca66cab4eaab082fe2e3ce728",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
