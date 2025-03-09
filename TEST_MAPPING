@@ -25,12 +25,7 @@
       "name": "hidl_test"
     },
     {
-       "name": "CtsOsTestCases",
-       "options": [
-           {
-              "include-filter": "android.os.cts.HwBinderTest"
-           }
-       ]
+      "name": "CtsOsTestCases_cts_hwbindertest"
     }
   ]
 }

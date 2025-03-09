@@ -21,16 +21,22 @@ package {
     default_applicable_licenses: ["system_libhidl_license"],
 }
 
+vintf_fragment {
+    name: "android.hidl.allocator@1.0-service.xml",
+    src: "android.hidl.allocator@1.0-service.xml",
+    system_ext_specific: true,
+}
+
 cc_binary {
     name: "android.hidl.allocator@1.0-service",
     relative_install_path: "hw",
     defaults: ["libhidl-defaults"],
     srcs: [
         "AshmemAllocator.cpp",
-        "service.cpp"
+        "service.cpp",
     ],
     init_rc: ["android.hidl.allocator@1.0-service.rc"],
-    vintf_fragments: ["android.hidl.allocator@1.0-service.xml"],
+    vintf_fragment_modules: ["android.hidl.allocator@1.0-service.xml"],
     system_ext_specific: true,
 
     shared_libs: [
